@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Карточки пользователей</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Список пользователей</h1>
+    <div class="container">
+        <div class="card" onclick="flipCard(this)">
+            <div class="card-inner">
+                <div class="card-front">
+                    <img src="https://img.freepik.com/premium-photo/studiostyle-photo-woman-40-years-old-extreme-left_943281-37605.jpg?w=740" alt="Фото пользователя">
+                    <h2>Елена Иванова</h2>
+                </div>
+                <div class="card-back">
+                    <p>Email: ivan@example.com</p>
+                    <p>Дата рождения: 10.01.1990</p>
+                    <p>Город: Москва</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card" onclick="flipCard(this)">
+            <div class="card-inner">
+                <div class="card-front">
+                    <img src="https://img.freepik.com/premium-photo/europeanelegance-redhairskincareportrait_882186-29138.jpg?w=740" alt="Фото пользователя">
+                    <h2>Мария Петрова</h2>
+                </div>
+                <div class="card-back">
+                    <p>Email: maria@example.com</p>
+                    <p>Дата рождения: 22.05.1985</p>
+                    <p>Город: Санкт-Петербург</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card" onclick="flipCard(this)">
+            <div class="card-inner">
+                <div class="card-front">
+                    <img src="https://img.freepik.com/premium-photo/woman-with-smile-that-says-she-is-smiling_916191-428283.jpg?w=740" alt="Фото пользователя">
+                    <h2>Анна Сидорова</h2>
+                </div>
+                <div class="card-back">
+                    <p>Email: alex@example.com</p>
+                    <p>Дата рождения: 15.08.1992</p>
+                    <p>Город: Новосибирск</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card" onclick="flipCard(this)">
+            <div class="card-inner">
+                <div class="card-front">
+                    <img src="https://img.freepik.com/premium-photo/high-quality-stock-image_783884-153906.jpg?w=740" alt="Фото пользователя">
+                    <h2>Ольга Смирнова</h2>
+                </div>
+                <div class="card-back">
+                    <p>Email: olga@example.com</p>
+                    <p>Дата рождения: 05.03.1988</p>
+                    <p>Город: Екатеринбург</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card" onclick="flipCard(this)">
+            <div class="card-inner">
+                <div class="card-front">
+                    <img src="https://img.freepik.com/premium-photo/portrait-attractive-young-woman_1236033-55508.jpg?w=740" alt="Фото пользователя">
+                    <h2>Дарья Козлова</h2>
+                </div>
+                <div class="card-back">
+                    <p>Email: dmitry@example.com</p>
+                    <p>Дата рождения: 18.07.1995</p>
+                    <p>Город: Казань</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card" onclick="flipCard(this)">
+            <div class="card-inner">
+                <div class="card-front">
+                    <img src="https://img.freepik.com/premium-photo/portrait-young-woman_1026065-248209.jpg?w=740" alt="Фото пользователя">
+                    <h2>Елена Васильева</h2>
+                </div>
+                <div class="card-back">
+                    <p>Email: elena@example.com</p>
+                    <p>Дата рождения: 30.11.1991</p>
+                    <p>Город: Нижний Новгород</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function flipCard(card) {
+            card.classList.toggle('flipped');
+        }
+    </script>
+</body>
+</html>
